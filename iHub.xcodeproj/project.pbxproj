@@ -15,6 +15,7 @@
 		A4F2A6302567460900D4183E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4F2A62E2567460900D4183E /* LaunchScreen.storyboard */; };
 		A4F2A63B2567460A00D4183E /* iHubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F2A63A2567460A00D4183E /* iHubTests.swift */; };
 		A4F2A6462567460A00D4183E /* iHubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F2A6452567460A00D4183E /* iHubUITests.swift */; };
+		A4F2A65A25674A3200D4183E /* TwoittedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F2A65925674A3200D4183E /* TwoittedTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		A4F2A6412567460A00D4183E /* iHubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iHubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4F2A6452567460A00D4183E /* iHubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iHubUITests.swift; sourceTree = "<group>"; };
 		A4F2A6472567460A00D4183E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4F2A65925674A3200D4183E /* TwoittedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoittedTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				A4F2A62C2567460900D4183E /* Assets.xcassets */,
 				A4F2A62E2567460900D4183E /* LaunchScreen.storyboard */,
 				A4F2A6312567460900D4183E /* Info.plist */,
+				A4F2A65925674A3200D4183E /* TwoittedTableViewCell.swift */,
 			);
 			path = iHub;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4F2A6282567460700D4183E /* ViewController.swift in Sources */,
+				A4F2A65A25674A3200D4183E /* TwoittedTableViewCell.swift in Sources */,
 				A4F2A6242567460700D4183E /* AppDelegate.swift in Sources */,
 				A4F2A6262567460700D4183E /* SceneDelegate.swift in Sources */,
 			);
