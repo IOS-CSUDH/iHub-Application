@@ -3,72 +3,91 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A4F2A6242567460700D4183E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F2A6232567460700D4183E /* AppDelegate.swift */; };
-		A4F2A6262567460700D4183E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F2A6252567460700D4183E /* SceneDelegate.swift */; };
-		A4F2A6282567460700D4183E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F2A6272567460700D4183E /* ViewController.swift */; };
-		A4F2A62B2567460700D4183E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4F2A6292567460700D4183E /* Main.storyboard */; };
-		A4F2A62D2567460900D4183E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4F2A62C2567460900D4183E /* Assets.xcassets */; };
-		A4F2A6302567460900D4183E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4F2A62E2567460900D4183E /* LaunchScreen.storyboard */; };
-		A4F2A63B2567460A00D4183E /* iHubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F2A63A2567460A00D4183E /* iHubTests.swift */; };
-		A4F2A6462567460A00D4183E /* iHubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F2A6452567460A00D4183E /* iHubUITests.swift */; };
-		A4F2A66225674B7700D4183E /* TesterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F2A66125674B7700D4183E /* TesterTableViewCell.swift */; };
+		29BD362BB181A9FA36D91D6E /* Pods_iHub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B28BD8467941F9784D97D787 /* Pods_iHub.framework */; };
+		8EA4F9C4256625200098A58F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA4F9C3256625200098A58F /* SceneDelegate.swift */; };
+		8EA4F9C6256625200098A58F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA4F9C5256625200098A58F /* ViewController.swift */; };
+		8EA4F9C9256625200098A58F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EA4F9C7256625200098A58F /* Main.storyboard */; };
+		8EA4F9CB256625210098A58F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EA4F9CA256625210098A58F /* Assets.xcassets */; };
+		8EA4F9CE256625210098A58F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EA4F9CC256625210098A58F /* LaunchScreen.storyboard */; };
+		8EA4F9D9256625210098A58F /* iHubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA4F9D8256625210098A58F /* iHubTests.swift */; };
+		8EA4F9E4256625210098A58F /* iHubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA4F9E3256625210098A58F /* iHubUITests.swift */; };
+		8EA4F9F52566E7630098A58F /* WelcomeToLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA4F9F42566E7630098A58F /* WelcomeToLoginViewController.swift */; };
+		8EA4FA0A256701130098A58F /* FacebookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA4FA09256701130098A58F /* FacebookViewController.swift */; };
+		8EA4FA0F256701250098A58F /* TwitterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA4FA0E256701250098A58F /* TwitterViewController.swift */; };
+		8EA4FA142567013A0098A58F /* PinterestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA4FA132567013A0098A58F /* PinterestViewController.swift */; };
+		8EA4FA3C256710E90098A58F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA4FA3B256710E90098A58F /* AppDelegate.swift */; };
+		8EA4FA41256711F40098A58F /* TwitterLoginviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA4FA40256711F40098A58F /* TwitterLoginviewController.swift */; };
+		8EFFD10A2567153000005B45 /* TwitterAPICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFD1092567153000005B45 /* TwitterAPICaller.swift */; };
+		8EFFD10F25671A2B00005B45 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFD10E25671A2B00005B45 /* HomeTableViewController.swift */; };
+		8EFFD11425671B6700005B45 /* DoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFD11325671B6700005B45 /* DoneViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A4F2A6372567460A00D4183E /* PBXContainerItemProxy */ = {
+		8EA4F9D5256625210098A58F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A4F2A6182567460700D4183E /* Project object */;
+			containerPortal = 8EA4F9B6256625200098A58F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A4F2A61F2567460700D4183E;
+			remoteGlobalIDString = 8EA4F9BD256625200098A58F;
 			remoteInfo = iHub;
 		};
-		A4F2A6422567460A00D4183E /* PBXContainerItemProxy */ = {
+		8EA4F9E0256625210098A58F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A4F2A6182567460700D4183E /* Project object */;
+			containerPortal = 8EA4F9B6256625200098A58F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A4F2A61F2567460700D4183E;
+			remoteGlobalIDString = 8EA4F9BD256625200098A58F;
 			remoteInfo = iHub;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A4F2A6202567460700D4183E /* iHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4F2A6232567460700D4183E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A4F2A6252567460700D4183E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A4F2A6272567460700D4183E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A4F2A62A2567460700D4183E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A4F2A62C2567460900D4183E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A4F2A62F2567460900D4183E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A4F2A6312567460900D4183E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A4F2A6362567460A00D4183E /* iHubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iHubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4F2A63A2567460A00D4183E /* iHubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iHubTests.swift; sourceTree = "<group>"; };
-		A4F2A63C2567460A00D4183E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A4F2A6412567460A00D4183E /* iHubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iHubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4F2A6452567460A00D4183E /* iHubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iHubUITests.swift; sourceTree = "<group>"; };
-		A4F2A6472567460A00D4183E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A4F2A66125674B7700D4183E /* TesterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TesterTableViewCell.swift; sourceTree = "<group>"; };
+		69C18CE4BE1846F6085D03A5 /* Pods-iHub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iHub.release.xcconfig"; path = "Target Support Files/Pods-iHub/Pods-iHub.release.xcconfig"; sourceTree = "<group>"; };
+		864262E905B575B9211AEE62 /* Pods-iHub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iHub.debug.xcconfig"; path = "Target Support Files/Pods-iHub/Pods-iHub.debug.xcconfig"; sourceTree = "<group>"; };
+		8EA4F9BE256625200098A58F /* iHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EA4F9C3256625200098A58F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8EA4F9C5256625200098A58F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8EA4F9C8256625200098A58F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8EA4F9CA256625210098A58F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EA4F9CD256625210098A58F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8EA4F9CF256625210098A58F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EA4F9D4256625210098A58F /* iHubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iHubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EA4F9D8256625210098A58F /* iHubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iHubTests.swift; sourceTree = "<group>"; };
+		8EA4F9DA256625210098A58F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EA4F9DF256625210098A58F /* iHubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iHubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EA4F9E3256625210098A58F /* iHubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iHubUITests.swift; sourceTree = "<group>"; };
+		8EA4F9E5256625210098A58F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EA4F9F42566E7630098A58F /* WelcomeToLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeToLoginViewController.swift; sourceTree = "<group>"; };
+		8EA4FA09256701130098A58F /* FacebookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookViewController.swift; sourceTree = "<group>"; };
+		8EA4FA0E256701250098A58F /* TwitterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterViewController.swift; sourceTree = "<group>"; };
+		8EA4FA132567013A0098A58F /* PinterestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestViewController.swift; sourceTree = "<group>"; };
+		8EA4FA3B256710E90098A58F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8EA4FA40256711F40098A58F /* TwitterLoginviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterLoginviewController.swift; sourceTree = "<group>"; };
+		8EFFD1092567153000005B45 /* TwitterAPICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterAPICaller.swift; sourceTree = "<group>"; };
+		8EFFD10E25671A2B00005B45 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		8EFFD11325671B6700005B45 /* DoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneViewController.swift; sourceTree = "<group>"; };
+		B28BD8467941F9784D97D787 /* Pods_iHub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iHub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A4F2A61D2567460700D4183E /* Frameworks */ = {
+		8EA4F9BB256625200098A58F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29BD362BB181A9FA36D91D6E /* Pods_iHub.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EA4F9D1256625210098A58F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A4F2A6332567460A00D4183E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A4F2A63E2567460A00D4183E /* Frameworks */ = {
+		8EA4F9DC256625210098A58F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,55 +97,81 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A4F2A6172567460700D4183E = {
+		3C0269C1B6C55617EB409414 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A4F2A6222567460700D4183E /* iHub */,
-				A4F2A6392567460A00D4183E /* iHubTests */,
-				A4F2A6442567460A00D4183E /* iHubUITests */,
-				A4F2A6212567460700D4183E /* Products */,
+				B28BD8467941F9784D97D787 /* Pods_iHub.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		649B80549E962039CC049397 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				864262E905B575B9211AEE62 /* Pods-iHub.debug.xcconfig */,
+				69C18CE4BE1846F6085D03A5 /* Pods-iHub.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8EA4F9B5256625200098A58F = {
+			isa = PBXGroup;
+			children = (
+				8EA4F9C0256625200098A58F /* iHub */,
+				8EA4F9D7256625210098A58F /* iHubTests */,
+				8EA4F9E2256625210098A58F /* iHubUITests */,
+				8EA4F9BF256625200098A58F /* Products */,
+				649B80549E962039CC049397 /* Pods */,
+				3C0269C1B6C55617EB409414 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		A4F2A6212567460700D4183E /* Products */ = {
+		8EA4F9BF256625200098A58F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A4F2A6202567460700D4183E /* iHub.app */,
-				A4F2A6362567460A00D4183E /* iHubTests.xctest */,
-				A4F2A6412567460A00D4183E /* iHubUITests.xctest */,
+				8EA4F9BE256625200098A58F /* iHub.app */,
+				8EA4F9D4256625210098A58F /* iHubTests.xctest */,
+				8EA4F9DF256625210098A58F /* iHubUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A4F2A6222567460700D4183E /* iHub */ = {
+		8EA4F9C0256625200098A58F /* iHub */ = {
 			isa = PBXGroup;
 			children = (
-				A4F2A6232567460700D4183E /* AppDelegate.swift */,
-				A4F2A6252567460700D4183E /* SceneDelegate.swift */,
-				A4F2A6272567460700D4183E /* ViewController.swift */,
-				A4F2A6292567460700D4183E /* Main.storyboard */,
-				A4F2A62C2567460900D4183E /* Assets.xcassets */,
-				A4F2A62E2567460900D4183E /* LaunchScreen.storyboard */,
-				A4F2A6312567460900D4183E /* Info.plist */,
-				A4F2A66125674B7700D4183E /* TesterTableViewCell.swift */,
+				8EA4FA3B256710E90098A58F /* AppDelegate.swift */,
+				8EA4F9C3256625200098A58F /* SceneDelegate.swift */,
+				8EA4F9C5256625200098A58F /* ViewController.swift */,
+				8EA4F9C7256625200098A58F /* Main.storyboard */,
+				8EA4F9CA256625210098A58F /* Assets.xcassets */,
+				8EA4F9CC256625210098A58F /* LaunchScreen.storyboard */,
+				8EA4F9CF256625210098A58F /* Info.plist */,
+				8EA4F9F42566E7630098A58F /* WelcomeToLoginViewController.swift */,
+				8EA4FA09256701130098A58F /* FacebookViewController.swift */,
+				8EA4FA0E256701250098A58F /* TwitterViewController.swift */,
+				8EA4FA132567013A0098A58F /* PinterestViewController.swift */,
+				8EA4FA40256711F40098A58F /* TwitterLoginviewController.swift */,
+				8EFFD1092567153000005B45 /* TwitterAPICaller.swift */,
+				8EFFD10E25671A2B00005B45 /* HomeTableViewController.swift */,
+				8EFFD11325671B6700005B45 /* DoneViewController.swift */,
 			);
 			path = iHub;
 			sourceTree = "<group>";
 		};
-		A4F2A6392567460A00D4183E /* iHubTests */ = {
+		8EA4F9D7256625210098A58F /* iHubTests */ = {
 			isa = PBXGroup;
 			children = (
-				A4F2A63A2567460A00D4183E /* iHubTests.swift */,
-				A4F2A63C2567460A00D4183E /* Info.plist */,
+				8EA4F9D8256625210098A58F /* iHubTests.swift */,
+				8EA4F9DA256625210098A58F /* Info.plist */,
 			);
 			path = iHubTests;
 			sourceTree = "<group>";
 		};
-		A4F2A6442567460A00D4183E /* iHubUITests */ = {
+		8EA4F9E2256625210098A58F /* iHubUITests */ = {
 			isa = PBXGroup;
 			children = (
-				A4F2A6452567460A00D4183E /* iHubUITests.swift */,
-				A4F2A6472567460A00D4183E /* Info.plist */,
+				8EA4F9E3256625210098A58F /* iHubUITests.swift */,
+				8EA4F9E5256625210098A58F /* Info.plist */,
 			);
 			path = iHubUITests;
 			sourceTree = "<group>";
@@ -134,13 +179,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A4F2A61F2567460700D4183E /* iHub */ = {
+		8EA4F9BD256625200098A58F /* iHub */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A4F2A64A2567460A00D4183E /* Build configuration list for PBXNativeTarget "iHub" */;
+			buildConfigurationList = 8EA4F9E8256625210098A58F /* Build configuration list for PBXNativeTarget "iHub" */;
 			buildPhases = (
-				A4F2A61C2567460700D4183E /* Sources */,
-				A4F2A61D2567460700D4183E /* Frameworks */,
-				A4F2A61E2567460700D4183E /* Resources */,
+				2C4A0200AD0A2BA661C89255 /* [CP] Check Pods Manifest.lock */,
+				8EA4F9BA256625200098A58F /* Sources */,
+				8EA4F9BB256625200098A58F /* Frameworks */,
+				8EA4F9BC256625200098A58F /* Resources */,
+				9B80A3784AC50F324763A43B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -148,68 +195,68 @@
 			);
 			name = iHub;
 			productName = iHub;
-			productReference = A4F2A6202567460700D4183E /* iHub.app */;
+			productReference = 8EA4F9BE256625200098A58F /* iHub.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A4F2A6352567460A00D4183E /* iHubTests */ = {
+		8EA4F9D3256625210098A58F /* iHubTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A4F2A64D2567460A00D4183E /* Build configuration list for PBXNativeTarget "iHubTests" */;
+			buildConfigurationList = 8EA4F9EB256625210098A58F /* Build configuration list for PBXNativeTarget "iHubTests" */;
 			buildPhases = (
-				A4F2A6322567460A00D4183E /* Sources */,
-				A4F2A6332567460A00D4183E /* Frameworks */,
-				A4F2A6342567460A00D4183E /* Resources */,
+				8EA4F9D0256625210098A58F /* Sources */,
+				8EA4F9D1256625210098A58F /* Frameworks */,
+				8EA4F9D2256625210098A58F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A4F2A6382567460A00D4183E /* PBXTargetDependency */,
+				8EA4F9D6256625210098A58F /* PBXTargetDependency */,
 			);
 			name = iHubTests;
 			productName = iHubTests;
-			productReference = A4F2A6362567460A00D4183E /* iHubTests.xctest */;
+			productReference = 8EA4F9D4256625210098A58F /* iHubTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A4F2A6402567460A00D4183E /* iHubUITests */ = {
+		8EA4F9DE256625210098A58F /* iHubUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A4F2A6502567460A00D4183E /* Build configuration list for PBXNativeTarget "iHubUITests" */;
+			buildConfigurationList = 8EA4F9EE256625210098A58F /* Build configuration list for PBXNativeTarget "iHubUITests" */;
 			buildPhases = (
-				A4F2A63D2567460A00D4183E /* Sources */,
-				A4F2A63E2567460A00D4183E /* Frameworks */,
-				A4F2A63F2567460A00D4183E /* Resources */,
+				8EA4F9DB256625210098A58F /* Sources */,
+				8EA4F9DC256625210098A58F /* Frameworks */,
+				8EA4F9DD256625210098A58F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A4F2A6432567460A00D4183E /* PBXTargetDependency */,
+				8EA4F9E1256625210098A58F /* PBXTargetDependency */,
 			);
 			name = iHubUITests;
 			productName = iHubUITests;
-			productReference = A4F2A6412567460A00D4183E /* iHubUITests.xctest */;
+			productReference = 8EA4F9DF256625210098A58F /* iHubUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A4F2A6182567460700D4183E /* Project object */ = {
+		8EA4F9B6256625200098A58F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1220;
-				LastUpgradeCheck = 1220;
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
 				TargetAttributes = {
-					A4F2A61F2567460700D4183E = {
-						CreatedOnToolsVersion = 12.2;
+					8EA4F9BD256625200098A58F = {
+						CreatedOnToolsVersion = 12.1;
 					};
-					A4F2A6352567460A00D4183E = {
-						CreatedOnToolsVersion = 12.2;
-						TestTargetID = A4F2A61F2567460700D4183E;
+					8EA4F9D3256625210098A58F = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 8EA4F9BD256625200098A58F;
 					};
-					A4F2A6402567460A00D4183E = {
-						CreatedOnToolsVersion = 12.2;
-						TestTargetID = A4F2A61F2567460700D4183E;
+					8EA4F9DE256625210098A58F = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 8EA4F9BD256625200098A58F;
 					};
 				};
 			};
-			buildConfigurationList = A4F2A61B2567460700D4183E /* Build configuration list for PBXProject "iHub" */;
+			buildConfigurationList = 8EA4F9B9256625200098A58F /* Build configuration list for PBXProject "iHub" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,37 +264,37 @@
 				en,
 				Base,
 			);
-			mainGroup = A4F2A6172567460700D4183E;
-			productRefGroup = A4F2A6212567460700D4183E /* Products */;
+			mainGroup = 8EA4F9B5256625200098A58F;
+			productRefGroup = 8EA4F9BF256625200098A58F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A4F2A61F2567460700D4183E /* iHub */,
-				A4F2A6352567460A00D4183E /* iHubTests */,
-				A4F2A6402567460A00D4183E /* iHubUITests */,
+				8EA4F9BD256625200098A58F /* iHub */,
+				8EA4F9D3256625210098A58F /* iHubTests */,
+				8EA4F9DE256625210098A58F /* iHubUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A4F2A61E2567460700D4183E /* Resources */ = {
+		8EA4F9BC256625200098A58F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4F2A6302567460900D4183E /* LaunchScreen.storyboard in Resources */,
-				A4F2A62D2567460900D4183E /* Assets.xcassets in Resources */,
-				A4F2A62B2567460700D4183E /* Main.storyboard in Resources */,
+				8EA4F9CE256625210098A58F /* LaunchScreen.storyboard in Resources */,
+				8EA4F9CB256625210098A58F /* Assets.xcassets in Resources */,
+				8EA4F9C9256625200098A58F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A4F2A6342567460A00D4183E /* Resources */ = {
+		8EA4F9D2256625210098A58F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A4F2A63F2567460A00D4183E /* Resources */ = {
+		8EA4F9DD256625210098A58F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -256,62 +303,111 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2C4A0200AD0A2BA661C89255 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iHub-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B80A3784AC50F324763A43B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iHub/Pods-iHub-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iHub/Pods-iHub-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iHub/Pods-iHub-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		A4F2A61C2567460700D4183E /* Sources */ = {
+		8EA4F9BA256625200098A58F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4F2A6282567460700D4183E /* ViewController.swift in Sources */,
-				A4F2A6242567460700D4183E /* AppDelegate.swift in Sources */,
-				A4F2A66225674B7700D4183E /* TesterTableViewCell.swift in Sources */,
-				A4F2A6262567460700D4183E /* SceneDelegate.swift in Sources */,
+				8EA4FA0F256701250098A58F /* TwitterViewController.swift in Sources */,
+				8EA4FA142567013A0098A58F /* PinterestViewController.swift in Sources */,
+				8EA4F9F52566E7630098A58F /* WelcomeToLoginViewController.swift in Sources */,
+				8EFFD11425671B6700005B45 /* DoneViewController.swift in Sources */,
+				8EA4F9C6256625200098A58F /* ViewController.swift in Sources */,
+				8EFFD10F25671A2B00005B45 /* HomeTableViewController.swift in Sources */,
+				8EA4FA41256711F40098A58F /* TwitterLoginviewController.swift in Sources */,
+				8EA4FA3C256710E90098A58F /* AppDelegate.swift in Sources */,
+				8EA4FA0A256701130098A58F /* FacebookViewController.swift in Sources */,
+				8EA4F9C4256625200098A58F /* SceneDelegate.swift in Sources */,
+				8EFFD10A2567153000005B45 /* TwitterAPICaller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A4F2A6322567460A00D4183E /* Sources */ = {
+		8EA4F9D0256625210098A58F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4F2A63B2567460A00D4183E /* iHubTests.swift in Sources */,
+				8EA4F9D9256625210098A58F /* iHubTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A4F2A63D2567460A00D4183E /* Sources */ = {
+		8EA4F9DB256625210098A58F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4F2A6462567460A00D4183E /* iHubUITests.swift in Sources */,
+				8EA4F9E4256625210098A58F /* iHubUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A4F2A6382567460A00D4183E /* PBXTargetDependency */ = {
+		8EA4F9D6256625210098A58F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A4F2A61F2567460700D4183E /* iHub */;
-			targetProxy = A4F2A6372567460A00D4183E /* PBXContainerItemProxy */;
+			target = 8EA4F9BD256625200098A58F /* iHub */;
+			targetProxy = 8EA4F9D5256625210098A58F /* PBXContainerItemProxy */;
 		};
-		A4F2A6432567460A00D4183E /* PBXTargetDependency */ = {
+		8EA4F9E1256625210098A58F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A4F2A61F2567460700D4183E /* iHub */;
-			targetProxy = A4F2A6422567460A00D4183E /* PBXContainerItemProxy */;
+			target = 8EA4F9BD256625200098A58F /* iHub */;
+			targetProxy = 8EA4F9E0256625210098A58F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A4F2A6292567460700D4183E /* Main.storyboard */ = {
+		8EA4F9C7256625200098A58F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A4F2A62A2567460700D4183E /* Base */,
+				8EA4F9C8256625200098A58F /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		A4F2A62E2567460900D4183E /* LaunchScreen.storyboard */ = {
+		8EA4F9CC256625210098A58F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A4F2A62F2567460900D4183E /* Base */,
+				8EA4F9CD256625210098A58F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -319,7 +415,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		A4F2A6482567460A00D4183E /* Debug */ = {
+		8EA4F9E6256625210098A58F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -370,7 +466,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -380,7 +476,7 @@
 			};
 			name = Debug;
 		};
-		A4F2A6492567460A00D4183E /* Release */ = {
+		8EA4F9E7256625210098A58F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -425,7 +521,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -435,59 +531,61 @@
 			};
 			name = Release;
 		};
-		A4F2A64B2567460A00D4183E /* Debug */ = {
+		8EA4F9E9256625210098A58F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 864262E905B575B9211AEE62 /* Pods-iHub.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 36674FT7M9;
+				DEVELOPMENT_TEAM = 27M249HLNS;
 				INFOPLIST_FILE = iHub/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.CSUDHiOSTeam.iHub;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.iHub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		A4F2A64C2567460A00D4183E /* Release */ = {
+		8EA4F9EA256625210098A58F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69C18CE4BE1846F6085D03A5 /* Pods-iHub.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 36674FT7M9;
+				DEVELOPMENT_TEAM = 27M249HLNS;
 				INFOPLIST_FILE = iHub/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.CSUDHiOSTeam.iHub;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.iHub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
-		A4F2A64E2567460A00D4183E /* Debug */ = {
+		8EA4F9EC256625210098A58F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 36674FT7M9;
+				DEVELOPMENT_TEAM = 27M249HLNS;
 				INFOPLIST_FILE = iHubTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.CSUDHiOSTeam.iHubTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.iHubTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -495,21 +593,21 @@
 			};
 			name = Debug;
 		};
-		A4F2A64F2567460A00D4183E /* Release */ = {
+		8EA4F9ED256625210098A58F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 36674FT7M9;
+				DEVELOPMENT_TEAM = 27M249HLNS;
 				INFOPLIST_FILE = iHubTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.CSUDHiOSTeam.iHubTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.iHubTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -517,19 +615,19 @@
 			};
 			name = Release;
 		};
-		A4F2A6512567460A00D4183E /* Debug */ = {
+		8EA4F9EF256625210098A58F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 36674FT7M9;
+				DEVELOPMENT_TEAM = 27M249HLNS;
 				INFOPLIST_FILE = iHubUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.CSUDHiOSTeam.iHubUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.iHubUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -537,19 +635,19 @@
 			};
 			name = Debug;
 		};
-		A4F2A6522567460A00D4183E /* Release */ = {
+		8EA4F9F0256625210098A58F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 36674FT7M9;
+				DEVELOPMENT_TEAM = 27M249HLNS;
 				INFOPLIST_FILE = iHubUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.CSUDHiOSTeam.iHubUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.iHubUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -560,43 +658,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A4F2A61B2567460700D4183E /* Build configuration list for PBXProject "iHub" */ = {
+		8EA4F9B9256625200098A58F /* Build configuration list for PBXProject "iHub" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A4F2A6482567460A00D4183E /* Debug */,
-				A4F2A6492567460A00D4183E /* Release */,
+				8EA4F9E6256625210098A58F /* Debug */,
+				8EA4F9E7256625210098A58F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A4F2A64A2567460A00D4183E /* Build configuration list for PBXNativeTarget "iHub" */ = {
+		8EA4F9E8256625210098A58F /* Build configuration list for PBXNativeTarget "iHub" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A4F2A64B2567460A00D4183E /* Debug */,
-				A4F2A64C2567460A00D4183E /* Release */,
+				8EA4F9E9256625210098A58F /* Debug */,
+				8EA4F9EA256625210098A58F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A4F2A64D2567460A00D4183E /* Build configuration list for PBXNativeTarget "iHubTests" */ = {
+		8EA4F9EB256625210098A58F /* Build configuration list for PBXNativeTarget "iHubTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A4F2A64E2567460A00D4183E /* Debug */,
-				A4F2A64F2567460A00D4183E /* Release */,
+				8EA4F9EC256625210098A58F /* Debug */,
+				8EA4F9ED256625210098A58F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A4F2A6502567460A00D4183E /* Build configuration list for PBXNativeTarget "iHubUITests" */ = {
+		8EA4F9EE256625210098A58F /* Build configuration list for PBXNativeTarget "iHubUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A4F2A6512567460A00D4183E /* Debug */,
-				A4F2A6522567460A00D4183E /* Release */,
+				8EA4F9EF256625210098A58F /* Debug */,
+				8EA4F9F0256625210098A58F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A4F2A6182567460700D4183E /* Project object */;
+	rootObject = 8EA4F9B6256625200098A58F /* Project object */;
 }
